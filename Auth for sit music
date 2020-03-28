@@ -1,0 +1,5 @@
+# On Bash style shells:
+$ keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore -list -v | grep SHA1
+
+# On Windows Powershell
+$ keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore -list -v | grep SHA1
